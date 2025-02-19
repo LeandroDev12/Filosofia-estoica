@@ -146,19 +146,19 @@ img {
 
 @media (min-width: 768px) {
   .image-slider { 
-    max-width: 1200px; 
-    height: 600px; 
+    max-width: 700px; 
+    height: 400px; 
   }
 
   .image-slider img { 
-    height: 600px; 
+    height: 300px; 
   }
 }
 
 @media (min-width: 1024px) {
   .image-slider { 
-    max-width: 1500px; 
-    height: 900px; 
+    max-width: 8000px; 
+    height: 600px; 
   }
 
   .image-slider img { 
@@ -261,11 +261,11 @@ img {
 @media (max-width: 1024px) { 
   .virtudes-grid { 
     grid-template-columns: repeat(2, 1fr); 
-  }
+  } 
 }
 
 @media (max-width: 600px) { 
   .virtudes-grid { 
     grid-template-columns: 1fr; 
   }
-}
+  }
